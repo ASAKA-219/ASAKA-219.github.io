@@ -6,12 +6,13 @@ html {
 
 body {
     font-family: sans-serif, "游ゴシック体", YuGothic, "游ゴシック";
+    background-color: powderblue; 
 }
 
 h1{
     font-family:Helvetica,Arial,"ヒラギノ角ゴ Pro W3";
+    background-color: rgba(0,34,127,0.5);
     text-align: center;
-    background-color: rgb(0,34,126)
     line-height: 36px;
 }
 
@@ -20,7 +21,7 @@ h1::before {
     display: inline-block;
     width: 20px; /* 四角の幅 */
     height: 20px; /* 四角の高さ */
-    background-color: blue; /* 四角の色 */
+    background-color: orange
     margin-right: 10px; /* 四角と見出しの間のスペース */
     vertical-align: middle; /* 見出しと四角を垂直に中央揃え */
 }
