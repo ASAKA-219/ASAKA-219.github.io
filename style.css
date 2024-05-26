@@ -1,17 +1,19 @@
 /* styles.css */
 @charset "UTF-8";
+
 html {
     font-size: 100%;
 }
 
 body {
     font-family: sans-serif, "游ゴシック体", YuGothic, "游ゴシック";
-    background-color: powderblue; 
+    background-color: powderblue;
 }
 
-h1{
-    font-family:Helvetica,Arial,"ヒラギノ角ゴ Pro W3";
-    background-color: rgba(0,34,127,0.5);
+h1 {
+    font-family: Helvetica, Arial, "ヒラギノ角ゴ Pro W3";
+    box-shadow: 2px 2px 4px;
+    background-color: rgba(0, 34, 127, 0.5);
     text-align: center;
     line-height: 36px;
 }
@@ -19,25 +21,37 @@ h1{
 h1::before {
     content: "";
     display: inline-block;
-    width: 20px; /* 四角の幅 */
-    height: 20px; /* 四角の高さ */
-    background-color: orange
-    margin-right: 10px; /* 四角と見出しの間のスペース */
-    vertical-align: middle; /* 見出しと四角を垂直に中央揃え */
+    width: 7px;
+    /* 四角の幅 */
+    height: 30px;
+    /* 四角の高さ */
+    background-color: orange;
+    margin-right: 10px;
+    /* 四角と見出しの間のスペース */
+    vertical-align: middle;
+    /* 見出しと四角を垂直に中央揃え */
 }
 
 /* 他の見出しにも適用する場合 */
-h2::before, h3::before, h4::before, h5::before, h6::before {
+h2::before,
+h3::before {
     content: "";
     display: inline-block;
-    width: 15px; /* 四角の幅 */
-    height: 15px; /* 四角の高さ */
-    background-color: blue; /* 四角の色 */
-    margin-right: 8px; /* 四角と見出しの間のスペース */
-    vertical-align: middle; /* 見出しと四角を垂直に中央揃え */
+    width: 15px;
+    /* 四角の幅 */
+    height: 15px;
+    /* 四角の高さ */
+    background-color: blue;
+    /* 四角の色 */
+    margin-right: 8px;
+    /* 四角と見出しの間のスペース */
+    vertical-align: middle;
+    /* 見出しと四角を垂直に中央揃え */
 }
 
-a:active{
-    color: #00cc33; /* クリックした時のリンク色 */
-    text-decoration: underline; /* アンダーライン有り */
+a:active {
+    color: #00cc33;
+    /* クリックした時のリンク色 */
+    text-decoration: underline;
+    /* アンダーライン有り */
 }
